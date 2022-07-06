@@ -1,0 +1,47 @@
+@import url("../styles/style.css");
+h1 {
+  font-size: 2.5em;
+  color: #000000;
+  font-family: "Lobster", cursive;
+  margin-top: 1em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#sp-find {
+  margin: 4rem 0;
+}
+
+#sp-find p {
+  margin: 0% 21%;
+  line-height: 1.8em;
+  text-align: center;
+}
+
+#sp-find .map {
+  margin: 3rem 0;
+}
+
+#sp-address .desc {
+  color: #555;
+  font-size: 0.9em;
+  margin: 2rem 0;
+  line-height: 1.8em;
+  font-weight: 600;
+}
+
+#sp-address form button {
+  background: #aee3ef;
+  color: white;
+  text-transform: uppercase;
+  width: 120px;
+  padding: 3px;
+}
+
+#sp-address li {
+  color: #999;
+  font-size: 0.8em;
+  margin: 5px 0;
+  line-height: 1.5em;
+}
+/*# sourceMappingURL=styles.css.map */

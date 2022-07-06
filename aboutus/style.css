@@ -1,0 +1,77 @@
+@import url("../styles/style.css");
+p {
+  text-align: start;
+}
+
+@media screen and (max-width: 872px) {
+  .container {
+    max-width: 85%;
+  }
+}
+
+.about-top {
+  padding: 5em 0;
+}
+
+.about-top .about-top-grids {
+  margin-top: 4rem;
+}
+
+.about-top .about-top-grids img {
+  height: 100%;
+}
+
+.about-top .about-top-grids h4 {
+  font-size: 1.2em;
+}
+
+.about-top .about-top-grids p {
+  color: #999;
+  font-size: 1em;
+  margin: 1em 0 0 0;
+  line-height: 1.3em;
+}
+
+.about-team {
+  padding: 5em 0;
+  background: #cadde1;
+}
+
+.about-team .title {
+  margin: 0rem 0 2rem;
+}
+
+.about-team .team-grid {
+  margin-bottom: 3rem;
+}
+
+.about-team .team-grid img {
+  width: 100%;
+  border: 3px solid #fff;
+}
+
+.about-team .team-grid p {
+  color: #7db0bb;
+  font-size: 1em;
+  margin: 0;
+  line-height: 1.8em;
+  padding-bottom: 1rem;
+}
+
+.about-team .team-grid h6 {
+  font-size: 1.5em;
+  color: #555;
+  margin: 1em 0 0.5em 0;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+  .team-grid {
+    border-bottom: 2px solid #0b333b;
+  }
+}
+
+.about-bottom {
+  padding: 5em 0 6em;
+}
+/*# sourceMappingURL=style.css.map */

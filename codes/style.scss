@@ -1,0 +1,58 @@
+@import url("../styles/style.css");
+
+.head {
+    text-align: center;
+    font-size: 3em;
+    color: #1f1f22;
+    font-family: "Lobster", cursive;
+    margin: 1em;
+    text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Times New Roman", Times;
+    margin: 0;
+    padding: 3px 0;
+}
+
+#head {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #999;
+    }
+}
+
+#progress {
+    p {
+        line-height: 2em;
+        color: #888;
+        font-size: 0.9em;
+        margin-bottom: 1em;
+        font-weight: 300;
+    }
+    code {
+        padding: 2px 4px;
+        font-size: 90%;
+        color: #c7254e;
+        background-color: #f9f2f4;
+        border-radius: 4px;
+    }
+}
+
+
+.head-name{
+    color:rgb(44, 36, 36);
+    font-weight:600;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+    margin:2rem;
+
+}

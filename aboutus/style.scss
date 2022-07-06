@@ -1,0 +1,71 @@
+@import url("../styles/style.css");
+
+p {
+    text-align: start;
+}
+@media screen and (max-width: 872px) {
+    .container {
+        max-width: 85%;
+    }
+}
+
+// About-Us
+.about-top {
+    padding: 5em 0;
+    .about-top-grids {
+        margin-top: 4rem;
+
+        img {
+            height: 100%;
+        }
+
+        h4 {
+            font-size: 1.2em;
+        }
+        p {
+            color: #999;
+            font-size: 1em;
+            margin: 1em 0 0 0;
+            line-height: 1.3em;
+        }
+    }
+}
+
+// Our team
+.about-team {
+    padding: 5em 0;
+    background: #cadde1;
+    .title {
+        margin: 0rem 0 2rem;
+    }
+    .team-grid {
+        margin-bottom: 3rem;
+        img {
+            width: 100%;
+            border: 3px solid #fff;
+        }
+        p {
+            color: #7db0bb;
+            font-size: 1em;
+            margin: 0;
+            line-height: 1.8em;
+            padding-bottom: 1rem;
+        }
+        h6 {
+            font-size: 1.5em;
+            color: #555;
+            margin: 1em 0 0.5em 0;
+            text-transform: capitalize;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .team-grid {
+        border-bottom: 2px solid #0b333b;
+    }
+}
+
+// our-offers
+.about-bottom {
+    padding: 5em 0 6em;
+}
